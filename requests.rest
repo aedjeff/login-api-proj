@@ -1,0 +1,19 @@
+
+
+//POST http://localhost:5005/app/auth/register
+//Content-Type: application/json
+
+//{
+//    "first_name":"John",
+//    "last_name":"Doe",
+//    "email":"johnd@example.com",
+//    "password": 36738219
+//}
+
+POST http://localhost:5005/app/auth/login
+Content-Type: application/json
+
+{
+    "email":"johnd@example.com",
+    "password": 36738219
+}
